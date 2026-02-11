@@ -6,5 +6,5 @@ mm["message"]=mm["message"].apply(
     lambda x : re.sub(r"[^a-z\s]","",x)
 )
 mm["message"]=mm["message"].str.split()
-mm["message"]=mm["message"].str.stopword()
+mm["message"]=mm["message"].str.()
 print(mm["message"].head(10))
