@@ -7,4 +7,4 @@ mm["message"]=mm["message"].apply(
 )
 mm["message"]=mm["message"].str.split()
 mm["message"]=mm["message"].str.stopword()
-print(mm["message"].head(10
+print(mm["message"].head(10))
